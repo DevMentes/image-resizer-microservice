@@ -1,0 +1,1 @@
+This directory is used by the application for temporal uploaded files
