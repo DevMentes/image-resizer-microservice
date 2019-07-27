@@ -61,7 +61,7 @@ app.post('/resize', temporal.single('originalImage'), (request, response) => {
                 response.json({message: 'error on download'})
             }
             
-            // rimraf.sync(outputDirectory);
+            rimraf.sync(outputDirectory);
         });
     })
     .catch( error => {
